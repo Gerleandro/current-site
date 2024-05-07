@@ -1,0 +1,141 @@
+@import url('./font.css');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.title-head {
+    font-family: "Lobster", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 0 3rem 0 3rem;
+    margin-top: 10px;
+}
+
+.hr {
+    width:425px;
+    height:4px;
+    background-color: black;
+    border-radius: 10px;
+    border:none;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 5rem;
+}
+.text-perfil {
+    width: 450px;
+    height: auto;
+    line-height: 2rem;
+}
+.name {
+    margin-bottom: 1rem;
+    font-family: "Lobster", sans-serif;
+    color: black;
+    font-size: 40px;
+}
+.text-perfil > p {
+    margin: 2rem;
+    text-indent: 2rem;
+}
+
+.img-logo {
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5rem
+}
+
+article > section > h4 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize ;
+    font-family: 'Lobster';
+    width:100vw;
+    height: 2.5rem;
+    background: linear-gradient(90deg, transparent, #ee97339a, transparent);
+    color: white;
+    text-shadow: 2px 3px 4px #00000099;
+}
+
+
+.section {
+    margin: 2.5em;
+}
+
+.imgs {
+    width: 220px;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+footer  {
+    background-color: #bd650199;
+    width: 100vw;
+    height: 6rem;
+    color: #222;
+    border-top: 8px double #b658007c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.contact {
+    width:50%;
+}
+.dev > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.local ,.instagram, .dev > p > a {
+    color: #b65800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
