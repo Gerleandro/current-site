@@ -1,0 +1,16 @@
+@media screen and (max-width: 720px) {
+
+    header > h1 { 
+        font-size: 2rem !important;
+    }
+    .img-logo {
+        display: none;
+    }
+    .cortes {
+        flex-direction: column;
+    }
+    .name {
+        font-size: 1.8rem !important;
+    }
+
+}
