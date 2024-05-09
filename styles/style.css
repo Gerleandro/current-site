@@ -82,6 +82,10 @@ header {
 }
 
 .header-box > h1 {
+    display: flex;
+    width:460px;
+    justify-content: center;
+    align-items: center;
     font-family: "Lobster", sans-serif;
     font-size: 3rem;
     text-decoration: underline;
@@ -90,6 +94,7 @@ header {
     padding: 0 3rem 0 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    flex-wrap: nowrap;
 }
 
 .header-box> ul {
@@ -113,6 +118,7 @@ header {
     color: #222;
     cursor: pointer;
 }
+
 .header-box > ul > li > a:hover {
     color:#ff8800;
     cursor: pointer;
