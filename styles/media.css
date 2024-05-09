@@ -13,4 +13,11 @@
         font-size: 1.8rem !important;
     }
 
+    header, #facebook, #instagram, #whatsapp {
+        display:none;
+    }
+    
+    header {
+         
+    }
 }
