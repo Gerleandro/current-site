@@ -1,5 +1,9 @@
 @media screen and (max-width: 720px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     header > h1 { 
         font-size: 2rem !important;
     }
